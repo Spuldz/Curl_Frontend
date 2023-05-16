@@ -7,8 +7,8 @@ export default function AnimatedPicture() {
         <View>
             <View style={startingImage.mainPictureContainer}>
                 <Image
-                    style={{width: 500, height: 500}}
-                    source={require("assets/pictures/exercise 7.png")}/>
+                    style={startingImage.picture}
+                    source={{uri: "https://raw.githubusercontent.com/Spuldz/Curl_Frontend/master/assets/pictures/exercise%207.png"}}/>
             </View>
         </View>
     )

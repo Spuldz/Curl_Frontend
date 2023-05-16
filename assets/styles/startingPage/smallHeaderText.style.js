@@ -5,10 +5,12 @@ export default StyleSheet.create({
         fontFamily: "Lato-Regular",
         fontSize: 14,
         fontWeight: 400,
-        color: 'white'
+        color: 'white',
     },
     smallHeaderTextContanier: {
         width: "100%",
-        textAlign: "center"
+        textAlign: "center",
+        paddingTop: 60,
+        paddingBottom: 20
     }
 })

@@ -5,15 +5,17 @@ import headerTextStyle from "../../assets/styles/startingPage/headerText.style";
 import { View } from "react-native";
 import LandingButton from "../../components/startingPage/mainLandingButton";
 import AnimatedPicture from "../../components/startingPage/animatedLogo";
-export default function StartingPage() {
+import AlreadyLogged from "../../components/startingPage/alreadyLogged";
+export default function StartingPage({ navigation }) {
     return(
         <View style={mainStyle.startingPageContainer}>
             <View style={headerTextStyle.headerTextContainer}>
                 <SmallHeaderText/>
                 <LargeHeaderText/>
                 <AnimatedPicture/>
-                <LandingButton/>
             </View>
+            <LandingButton onPress={() => navigation.navigate('Register')} />
+            <AlreadyLogged/>
         </View>
     )
 }

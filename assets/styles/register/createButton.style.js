@@ -1,15 +1,14 @@
 import { StyleSheet } from "react-native";
-
 export default StyleSheet.create({
-    landingButtonContainer: {
-        width: "80%",
+    buttonStyleContainer: {
+        width: "90%",
         alignSelf: "center",
         color: "black",
         height: "auto",
         borderRadius: 100,
         cursor: "pointer"
     },
-    landingButton: {
+    buttonStyle: {
         fontFamily: "BebasNeue",
         fontSize: 25,
         paddingBottom: 20,
